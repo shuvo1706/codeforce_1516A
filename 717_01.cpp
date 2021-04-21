@@ -12,7 +12,6 @@ int main()
         {
             cin>>a[i];
         }
-
             for (int i=0;i<n-1;i++)
             {
                 if (k==0)
@@ -34,14 +33,7 @@ int main()
                         a[i]=a[i]-k;
                          a[n-1]=a[n-1]+k;
                         k=0;
-
-
-
-
                     }
-
-
-
                 }
             }
 
@@ -51,19 +43,7 @@ int main()
 
             }
     cout<<endl;
-
-
     }
-
-
-
-
-
-
-
-
-
-
 
     return 0;
 }
