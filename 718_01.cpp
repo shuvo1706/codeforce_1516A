@@ -13,21 +13,13 @@ int main()
             cout<<-1<<endl;
  else
  {
-
         while (n>0)
     {
-
             while (m<=n)
-        {
-
-
-            m=m*10;
-
-        }
-
+        
+            m=m*10;     
         m=m/10;
         k=n/m;
-
         count=count+k;
         n=n-(m*k);
         if(n<2050)
