@@ -2,6 +2,14 @@
 //https://atcoder.jp/contests/abc198/tasks/abc198_b
 #include<bits/stdc++.h>
 using namespace std;
+/*bool pallindrome(string s)
+{
+    string r=s;
+    reverse(r.begin(),r.end());
+    if (r==s)
+        return true;
+    else return false;
+}*/
 bool pallindrome(int n)
 {
     int t=n,rem,sum=0;
@@ -30,7 +38,7 @@ int main()
               n=n/10;
           }
  
-            if (pallindrome(n))
+            if (pallindrome(n))//pallindrom(to_string(n))
     cout<<"Yes"<<endl;
           else
            cout<<"No"<<endl;
