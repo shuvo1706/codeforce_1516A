@@ -1,10 +1,11 @@
+//https://atcoder.jp/contests/abc197/tasks/abc197_b
 #include<bits/stdc++.h>
 using namespace std;
 int main()
 {
 int h,w,x,y,count=0;
 cin>>h>>w>>x>>y;
-char c[h][w];
+char c[h+1][w+1];
 for (int i=1;i<=h;i++)
 {
     for (int j=1;j<=w;j++)
@@ -43,7 +44,7 @@ while (!(ub==1 && lb==1))
             lb=1;
 
         }
-   cout<<"hi"<<endl;
+
 }
 ub=0;
 lb=0;
@@ -73,7 +74,7 @@ while (!(ub==1 && lb==1) )
             lb=1;
 
         }
-        cout<<"hello"<<endl;
+    
 }
 
 
