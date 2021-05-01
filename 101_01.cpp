@@ -1,3 +1,4 @@
+//https://codeforces.com/contest/1469/problem/A
 #include<bits/stdc++.h>
 using namespace std;
 int  Pallindromecheck(string s)
