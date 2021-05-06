@@ -65,23 +65,8 @@ int main()
        q=((length-1)*9)+(f);
 
       cout<<q<<endl;
-
-
         }
-
-
-
     }
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
 
