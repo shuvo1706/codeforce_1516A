@@ -1,3 +1,4 @@
+//https://codeforces.com/contest/1520/problem/B
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
